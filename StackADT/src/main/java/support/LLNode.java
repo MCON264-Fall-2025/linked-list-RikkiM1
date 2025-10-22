@@ -7,7 +7,8 @@ package support;
 
 public class LLNode<T>
 {
-  protected LLNode<T> link;
+    public LLNode next;
+    protected LLNode<T> link;
   protected T info;
   
   public LLNode(T info)
